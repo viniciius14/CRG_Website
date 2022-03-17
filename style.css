@@ -1,7 +1,21 @@
 .navbar {
-	background: url("/Assets/ghibli_logo.png");
+	background: url("/Assets/ghibli_logo_shortened.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-color: lightblue;
-	background-position: center;
+	background-color: #009CF0;
+	background-position: left;
+	padding: 10px;
+	
 }
+
+.navbar-toggler :focus{
+	outline: 0;
+}
+
+/* 	009CF0 -> background color of the logo */
+
+/*
+.navbar :active{
+	background: url("/Assets/ghibli_logo.jpg");
+}
+*/
