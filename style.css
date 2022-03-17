@@ -6,10 +6,11 @@
 	background-position: left;
 	padding: 10px;
 	
+	
 }
 
-.navbar-toggler :focus{
-	outline: 0;
+.navbar-toggler-collapsed :focus{
+	outline: 0px;
 }
 
 /* 	009CF0 -> background color of the logo */
@@ -19,3 +20,4 @@
 	background: url("/Assets/ghibli_logo.jpg");
 }
 */
+
