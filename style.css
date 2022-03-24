@@ -13,3 +13,76 @@
 }
 
 /* 	009CF0 -> background color of the logo */
+
+
+
+
+
+
+
+
+.item1_div{
+	position: fixed;
+	bottom: 0;
+	left: 1000;
+
+}
+
+
+#item1_gif{
+	background-image:  url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1");
+	width: 100%vw;
+	background-size: contain;
+	resize: vw vh;
+	background-repeat: no-repeat;
+}
+
+#item1_text{
+	background-color: white;
+	text-align: left;
+	padding: 0 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+#item2_gif{
+	background-image:  url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1");
+	height: 500px;
+	background-size: cover;
+}
+
+#item2_text{
+	background-color: white;
+	text-align: left;
+}
+
+
+#item3_gif{
+	background-image:  url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1");
+	height: 500px;
+	background-size: cover;
+}
+
+#item3_text{
+	background-color: white;
+	text-align: left;
+}
+
+
+#item4_gif{
+	background-image:  url("https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1");
+	height: 500px;
+	background-size: cover;
+}
+
+#item4_text{
+	background-color: white;
+	text-align: left;
+}
