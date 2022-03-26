@@ -1,7 +1,6 @@
 /*
         TODO LIST
 
--border radius != 0 ?
 -make gif proportional to the users view
 -align text to the bottom left or right
 -make gifs activate only when the user is seeing them (atleast 75% in view)
