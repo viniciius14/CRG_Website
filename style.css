@@ -63,3 +63,14 @@ item4_text{
 	background-color: white;
 	text-align: right;
 }
+
+#item9_gif{
+	background-image:  url("https://media.giphy.com/media/b07clVdSOQcSY/giphy.gif");
+	height: 500px;
+	background-size: 100vw 100%;;
+}
+
+#item10_text{
+	background-color: white;
+	text-align: right;
+}
