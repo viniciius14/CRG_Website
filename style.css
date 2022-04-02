@@ -20,8 +20,6 @@
 	height: 500px;
 	background-size: 100vw 100%;
 	background-repeat: no-repeat;
-
-
 }
 
 #item2_text{
@@ -35,7 +33,7 @@
 	height: 500px;
 	background-size: 100vw 100%;;
 }
-item4_text{
+#item4_text{
 	background-color: white;
 	text-align: right;
 }
