@@ -2,14 +2,13 @@
 	background: url("/Assets/ghibli_logo_shortened.jpg");
 	background-size: auto 60px;
 	background-repeat: no-repeat;
-	background-color: rgb(10, 25, 73);
+	background-color: #009CF0;
 	background-position: left top;
 	background-attachment: fixed;
 	padding: 10px;	
 }
-body{
-	background-color: rgb(10, 25, 73);
-}
+
+
 .navbar-toggler:focus{
 	box-shadow: 0 0 0 0;
 }
@@ -74,7 +73,7 @@ body{
 	background-size: 100vw 100%;;
 }
 
-/*Perceber porque e que este nao sofre as alterações*/
+
 #item10_text{
 	background-color: rgb(10, 25, 73);
 	color: white;
