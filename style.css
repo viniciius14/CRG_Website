@@ -6,9 +6,12 @@
 	background-position: left top;
 	background-attachment: fixed;
 	padding: 10px;	
+	
 }
 
-
+body{
+	background-color:#009CF0;
+}
 .navbar-toggler:focus{
 	box-shadow: 0 0 0 0;
 }
@@ -24,7 +27,6 @@
 }
 
 #item2_text{
-	background-color: rgb(10, 25, 73);
 	color: white;
 	text-align: right;
 }
@@ -36,7 +38,6 @@
 	background-size: 100vw 100%;;
 }
 #item4_text{
-	background-color: rgb(10, 25, 73);
 	color: white;
 	text-align: right;
 }
@@ -49,7 +50,6 @@
 }
 
 #item6_text{
-	background-color: rgb(10, 25, 73);
 	color: white;
 	text-align: right;
 }
@@ -62,7 +62,6 @@
 }
 
 #item8_text{
-	background-color: rgb(10, 25, 73);
 	color: white;
 	text-align: right;
 }
@@ -75,10 +74,9 @@
 
 
 #item10_text{
-	background-color: rgb(10, 25, 73);
 	color: white;
 	text-align: right;
 }
 
 
-/*Mudar todos os tipo de letra e todas as cores para branco*/
+/*Mudar todos os tipo de letra*/
