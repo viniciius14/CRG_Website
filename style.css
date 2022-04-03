@@ -29,6 +29,7 @@ body{
 #item2_text{
 	color: white;
 	text-align: right;
+	font-family:'Times New Roman', Times, serif;
 }
 
 
@@ -40,6 +41,7 @@ body{
 #item4_text{
 	color: white;
 	text-align: right;
+	font-family:Impact, sans-serif;
 }
 
 
@@ -52,6 +54,7 @@ body{
 #item6_text{
 	color: white;
 	text-align: right;
+	font-family: Helvetica, sans-serif;
 }
 
 
@@ -64,6 +67,7 @@ body{
 #item8_text{
 	color: white;
 	text-align: right;
+	font-family:'Lucida Sans Regular', sans-serif;
 }
 
 #item9_gif{
@@ -76,6 +80,7 @@ body{
 #item10_text{
 	color: white;
 	text-align: right;
+	font-family: 'Courier New', monospace;
 }
 
 
