@@ -6,7 +6,7 @@
 	background-position: left top;
 	background-attachment: fixed;
 	padding: 10px;	
-	
+	/* 	009CF0 -> background color of the logo */
 }
 
 body{
@@ -15,17 +15,26 @@ body{
 }
 
 
+.row>* {
+    flex-shrink: 0;
+	width: auto;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
 
+}
 .navbar-toggler:focus{
 	box-shadow: 0 0 0 0;
 }
 
-/* 	009CF0 -> background color of the logo */
 
-
-#item1_gif{
-	background-size: 100vw 100%;;
+video {
+    display: block;
+    margin: 0 auto;
 }
+
+
 
 #item2_text{
 	color: white;
