@@ -3,7 +3,9 @@
 
 *{
 	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
 }
+
 
 .navbar {
 	background: url("/Assets/ghibli_logo_shortened.jpg");
@@ -12,7 +14,7 @@
 	background-color: #009CF0;			/* 	009CF0 -> background color of the logo */
 	background-position: left top;
 	background-attachment: fixed;
-	padding: 10px;
+
 }
 
 body{
@@ -29,6 +31,10 @@ body{
     margin-top: var(--bs-gutter-y);
 }
 
+.navbar{
+	width: 100% !important; 
+}
+
 .navbar-toggler:focus{
 	box-shadow: 0 0 0 0;
 }
@@ -38,12 +44,14 @@ h5{		/* for "About the studio", "Movies" and Director */
 	font-size: 25px;
 	font-weight: bold;
 	font-family:'Roboto Mono', monospace;
+	overflow-y: hidden;
 }
 
 h6{		/* for Movie Titles*/
 	font-size: 25px;
 	font-weight: bold;
 	padding-top: 10px;
+	overflow-y: hidden;
 }
 
 p{		/* for plain text */
@@ -52,6 +60,13 @@ p{		/* for plain text */
 	font-size: 18px;
 	padding-top: 10px;
 }
+
+
+
+
+
+
+
 
 video {
     margin: 0 auto;
