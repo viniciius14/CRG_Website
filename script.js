@@ -66,7 +66,7 @@ Facts that we can add:
 
 
 link museu: https://www.ghibli-museum.jp/
-
+link park ghibli: https://ghibli-park.jp/en/about/
 
 
 
