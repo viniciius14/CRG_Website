@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
 
-*{
+
+
+
+
+
+
+* {
 	font-family: 'Poppins', sans-serif;
 	overflow-x: hidden;
 }
@@ -17,7 +23,7 @@
 
 }
 
-body{
+body {
 	background-color:#009cf0a9;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 }
@@ -31,15 +37,15 @@ body{
     margin-top: var(--bs-gutter-y);
 }
 
-.navbar{
+.navbar {
 	width: 100% !important; 
 }
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
 	box-shadow: 0 0 0 0;
 }
 
-h5{		/* for "About the studio", "Movies" and Director */
+h5 {		/* for "About the studio", "Movies" and Director */
 	color:chartreuse; /* SECALHAR MUDAR PARA UMA COR DE DIF DE BRANCO OU PRETO */
 	font-size: 25px;
 	font-weight: bold;
@@ -47,24 +53,23 @@ h5{		/* for "About the studio", "Movies" and Director */
 	overflow-y: hidden;
 }
 
-h6{		/* for Movie Titles*/
+h6 {		/* for Movie Titles*/
 	font-size: 25px;
 	font-weight: bold;
 	padding-top: 10px;
 	overflow-y: hidden;
 }
 
-p{		/* for plain text */
+p {		/* for plain text */
 	margin-right: 30px;
 	margin-left: 30px;
 	font-size: 18px;
 	padding-top: 10px;
 }
 
-
-
-
-
+.col-md-6 {
+	width: 100vw;
+}
 
 
 
@@ -75,6 +80,13 @@ video {
 #gif_item{
 	height: 720px;
 	width: auto;
+}
+
+@media only screen and (max-width: 600px){
+	#gif_item{
+		height: auto;
+		width: 100%;
+	}
 }
 
 #text_item{
