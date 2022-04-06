@@ -32,6 +32,11 @@ body{
 	box-shadow: 0 0 0 0;
 }
 
+h6{
+	font-size: 69px;
+}
+
+
 p{
 	margin-right: 30px;
 	margin-left: 30px;
