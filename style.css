@@ -15,7 +15,7 @@
 }
 
 body{
-	background-color:#009CF0;
+	background-color:#9ecfe9;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
@@ -31,7 +31,10 @@ body{
 .navbar-toggler:focus{
 	box-shadow: 0 0 0 0;
 }
-
+h6{
+	font-size: 25px;
+	font-weight: bold;
+}
 p{
 	margin-right: 30px;
 	margin-left: 30px;
