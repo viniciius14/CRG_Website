@@ -49,8 +49,9 @@ body {
 }
 
 h5 {		/* for "About the studio", "Movies" and Director */
-	color:chartreuse; /* SECALHAR MUDAR PARA UMA COR DE DIF DE BRANCO OU PRETO */
-	font-size: 25px;
+	padding-top: 15px;
+	color:black; /* SECALHAR MUDAR PARA UMA COR DE DIF DE BRANCO OU PRETO */
+	font-size: 30px;
 	font-weight: bold;
 	font-family:'Roboto Mono', monospace;
 	overflow-y: hidden;
