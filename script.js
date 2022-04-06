@@ -5,8 +5,6 @@
 
 
 
-
--texto da kikis delivery ta meio estrano, arranjar maneira de o meter mais natural
 -mudar cores
 -descricao totoro
 -mapa (em baixo como o adicionar)
@@ -21,24 +19,21 @@
     Pick the size you want by clicking the down arrow to the left of the text field.
     Copy the displayed HTML code. Paste it into your web app.
 
--directors ta mt a esquerda e devia tar centrado
 -escolher fonte de escrita
     -fonts.google.com
-    -vid usa "*{font-family: 'Poppins', sans-serif;}" no ficheiro de css *{} faz com q as mudancas ai sejam aplicadas a tudo
-
-
-
-
-
-
-
-
-
 
 
 -put all the movie titles and text
 -photo and info about the director with maybe a vid about him from youtube
 -photo and info about the studio
+
+
+
+
+
+
+
+
 
 Facts that we can add:
     -The name “Ghibli” refers to the Italian word for the “Hot Sahara Wind.” The name is fitting because the studio wanted to “blow new wind through the anime industry.” 

@@ -24,7 +24,7 @@
 }
 
 body {
-	background-color:#009cf0a9;
+	background-color:#fff;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
@@ -58,6 +58,7 @@ h6 {		/* for Movie Titles*/
 	font-weight: bold;
 	padding-top: 10px;
 	overflow-y: hidden;
+	color: black;
 }
 
 p {		/* for Plain Text */
@@ -65,6 +66,7 @@ p {		/* for Plain Text */
 	margin-left: 30px;
 	font-size: 18px;
 	padding-top: 10px;
+	color: black;
 }
 
 .col-md-6 {
