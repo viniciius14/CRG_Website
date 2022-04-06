@@ -43,12 +43,14 @@ h5{		/* for "About the studio", "Movies" and Director */
 h6{		/* for Movie Titles*/
 	font-size: 25px;
 	font-weight: bold;
+	padding-top: 10px;
 }
 
 p{		/* for plain text */
 	margin-right: 30px;
 	margin-left: 30px;
 	font-size: 18px;
+	padding-top: 10px;
 }
 
 video {
@@ -63,42 +65,5 @@ video {
 #text_item{
 	color: white;
 	text-align: center;
+	padding-top: 10px;
 }
-
-#item2_text{
-	color: white;
-	text-align: center;
-
-}
-
-#item4_text{
-	color: white;
-	text-align: center;
-
-	
-}
-
-#item6_text{
-	color: white;
-	text-align: center;
-
-}
-
-#item8_text{
-	color: white;
-	text-align: center;
-
-}
-
-#item10_text{
-	color: white;
-	text-align: center;
-
-}
-
-#item12_text{
-	color: white;
-	text-align: center;
-
-}
-
