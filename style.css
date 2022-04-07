@@ -58,6 +58,9 @@ body {
 	box-shadow: 0 0 0 0;
 }
 
+h4{
+	line-height: normal;
+}
 h5 {		/* for "About the studio", "Movies" and Director */
 	padding-top: 15px;
 	color:black; /* SECALHAR MUDAR PARA UMA COR DE DIF DE BRANCO OU PRETO */
@@ -76,7 +79,7 @@ h6 {		/* for Movie Titles*/
 	color: black;
 }
 
-p {		/* for Plain Text */
+p {			/* for Plain Text */
 	margin-right: 30px;
 	margin-left: 30px;
 	font-size: 18px;
@@ -147,14 +150,22 @@ video {
 
 
 
-@media only screen and (max-device-width : 1200px) {
+@media only screen and (max-device-width : 1201px) {
 	.directors-container-class-vertical{
 		display: none !important;
 	}
 }
 
-@media only screen and (min-device-width : 1200px) {
+@media only screen and (min-device-width : 1201px) {
     .directors-container-class-horizontal{
 		display: none !important;
 	}
 }
+
+.img-square-wrapper{
+	max-width: 300px;
+	max-height: 180px;
+	height: 180px;
+	width: auto;
+}
+
