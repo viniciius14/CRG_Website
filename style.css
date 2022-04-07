@@ -49,7 +49,6 @@ body {
 #map {
     padding: 50px;
     text-align: right;
-    margin: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -163,9 +162,10 @@ video {
 }
 
 .img-square-wrapper{
-	max-width: 300px;
-	max-height: 180px;
-	height: 180px;
-	width: auto;
+	width: 100px;
 }
 
+.img-square-wrapper img{
+	width: 100%;
+	height: auto;
+}
