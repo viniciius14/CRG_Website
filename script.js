@@ -3,7 +3,7 @@
 
 
 
-
+    FAZER COM QUE AS CARDS COM OS DIREWTORES SEJAM RESPONSIVE!!!
 
 -mapa (em baixo como o adicionar)
     1. Google Maps
@@ -74,5 +74,3 @@ link park ghibli: https://ghibli-park.jp/en/about/
 
 
 */
-
-
