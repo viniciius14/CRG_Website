@@ -68,6 +68,7 @@ h6 {		/* for Movie Titles*/
 	padding-top: 10px;
 	overflow-y: hidden;
 	color: black;
+	margin-left: 50px ;
 }
 
 p {			/* for Plain Text */
