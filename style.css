@@ -55,6 +55,7 @@ h5 {		/* for "About the studio", "Movies" and Director */
 	font-weight: bold;
 	font-family:'Roboto Mono', monospace;
 	overflow-y: hidden;
+
 }
 
 h6 {		/* for Movie Titles*/
@@ -144,4 +145,8 @@ video {
 	display: flex;
 	justify-content: space-evenly;
 
+}
+
+.card-title{
+	text-align: center;
 }
