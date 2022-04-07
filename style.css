@@ -130,10 +130,12 @@ video {
 }
 
 
-.map {
+#map {
 	padding: 50px;
 	text-align: right;
 	margin: 50px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .info {
