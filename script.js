@@ -5,8 +5,6 @@
 
 
 
--mudar cores
--descricao totoro
 -mapa (em baixo como o adicionar)
     1. Google Maps
     Google Maps is the de facto map service on the planet. Daily, over a billion people tap into Google Maps to navigate their way around town. If not for China’s Great Firewall, Google Maps would be the most popular mapping tool in every country. Here’s a secret: embedding Google maps onto your web app takes less than three minutes. Here’s what you do:
@@ -19,12 +17,11 @@
     Pick the size you want by clicking the down arrow to the left of the text field.
     Copy the displayed HTML code. Paste it into your web app.
 
--escolher fonte de escrita
-    -fonts.google.com
 
 
--put all the movie titles and text
+
 -photo and info about the director with maybe a vid about him from youtube
+
 -photo and info about the studio
 
 
@@ -67,6 +64,12 @@ Facts that we can add:
 
 link museu: https://www.ghibli-museum.jp/
 link park ghibli: https://ghibli-park.jp/en/about/
+
+
+
+
+
+ 鈴木年子
 
 
 
