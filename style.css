@@ -45,6 +45,15 @@ body {
 	width: 100% !important; 
 }
 
+
+#map {
+    padding: 50px;
+    text-align: right;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar-toggler:focus {
 	box-shadow: 0 0 0 0;
 }
