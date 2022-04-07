@@ -69,8 +69,5 @@ link park ghibli: https://ghibli-park.jp/en/about/
 
 
 
- 鈴木年子
-
-
 
 */

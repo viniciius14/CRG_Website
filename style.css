@@ -29,7 +29,7 @@
 body {
 	background-color:#9ecfe9;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
-	margin-bottom: 50px;
+	margin-bottom: 50px;	
 }
 
 .row>* {
@@ -43,14 +43,6 @@ body {
 
 .navbar {
 	width: 100% !important; 
-}
-
-
-#map {
-    padding: 50px;
-    text-align: right;
-    display: flex;
-    justify-content: space-between;
 }
 
 .navbar-toggler:focus {
@@ -160,6 +152,40 @@ video {
 		display: none !important;
 	}
 }
+
+
+.map {
+	max-width: 50vw;
+	height: auto;
+	padding-left: 50px;
+    display: flex;
+	overflow: hidden;
+}
+
+.studio-map .map iframe {
+    top: 0;
+    left: 0;
+    width:33.3vw ;
+	height:23.3vw ;
+	
+    
+  }
+
+@media only screen and (min-device-width : 650px) {
+	.map {
+		align-self: center;
+	}
+}
+
+
+
+
+
+
+
+
+/*	CARROUSSEL STUFF	*/
+
 
 * {box-sizing:border-box}
 
