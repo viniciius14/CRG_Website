@@ -29,6 +29,7 @@
 body {
 	background-color:#9ecfe9;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
+	margin-bottom: 50px;
 }
 
 .row>* {
@@ -132,6 +133,7 @@ video {
 .map {
 	padding: 50px;
 	text-align: right;
+	margin: 50px;
 }
 
 .info {
