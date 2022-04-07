@@ -129,11 +129,6 @@ video {
 }
 
 
-.map {
-	padding: 50px;
-	text-align: right;
-}
-
 .info {
 
 	width: 50vw;
@@ -141,3 +136,15 @@ video {
 }
 
 
+
+@media only screen and (max-device-width : 1200px) {
+	.directors-container-class-vertical{
+		display: none !important;
+	}
+}
+
+@media only screen and (min-device-width : 1200px) {
+    .directors-container-class-horizontal{
+		display: none !important;
+	}
+}
