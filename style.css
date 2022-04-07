@@ -142,7 +142,6 @@ video {
 
 #directors-cards {
 	display: flex;
-	align-content: space-between;
-	align-items: center;
+	justify-content: space-evenly;
 
 }
