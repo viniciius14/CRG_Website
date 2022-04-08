@@ -178,9 +178,15 @@ video {
 
 @media only screen and (max-device-width : 1370px) {
 	.studio  {
-		width: 100vw;
+		width: 100%;
 		height: auto;
 		margin: 0;
+	}
+
+	.studio p{
+		padding: 40px;
+		text-align: center;
+		margin:0px;
 	}
 
 	.map{
@@ -228,6 +234,7 @@ video {
 	position: relative;
 	height: auto;
 	width: 500px;
+
 }
   
 .carousel__item {
