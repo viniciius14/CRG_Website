@@ -173,17 +173,6 @@ video {
 	float: left;
 }
 
-@media only screen and (max-device-width : 1000px) {
-	.map{
-		max-width: 50vw;
-		height: auto;
-		padding-left: 50px;
-		display: flex;
-		overflow: hidden;
-	}
-}
-
-
 .studio  {
     width: 50vw;
     height: 400px;
@@ -204,12 +193,10 @@ video {
 		margin:0px;
 	}
 
-	.map{
-		align-self: center;
-		padding: 100px;
-		width: 90vw;
-		height: auto;
+	.studio-map {
+		align-content: center;
 	}
+
 }
 
 
@@ -255,50 +242,50 @@ video {
 }
   
 .carousel__item {
-height: auto;
-display: none;
+	height: auto;
+	display: none;
 }
   
 .carousel__item--selected {
-display: block;
+	display: block;
 }
   
 .carousel__nav {
-width: 100%;
-padding: 20px 0;
-position: absolute;
-bottom: 0;
-left: 0;
-text-align: center;
+	width: 100%;
+	padding: 20px 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
 }
   
 .carousel__button {
-width: 10px;
-height: 10px;
-display: inline-block;
-background: rgba(255, 255, 255, 0.5);
-border-radius: 50%;
-margin: 0 5px;
-cursor: pointer;
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	margin: 0 5px;
+	cursor: pointer;
 }
   
 .carousel__button--selected {
-background: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.7);
 }
   
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+	from {opacity: .4}
+	to {opacity: 1}
 }
 .img-square-wrapper{
-	width: 100px;
+		width: 100px;
 }
 
 .img-square-wrapper img{
