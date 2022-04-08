@@ -72,6 +72,7 @@ h6 {		/* for Movie Titles*/
 }
 
 p {			/* for Plain Text */
+	margin: 50px;
 	font-size: 18px;
 	padding-top: 10px;
 	color: black;
@@ -156,45 +157,47 @@ video {
 
 
 .studio-map { 
-	padding: 40px;
     width: 100vw;
+    margin: 0 auto;
+	padding: 10px;
 }
 
 
 
 .map{
-	padding: 40px;
 	max-width: 40vw;
+	height: auto;
+	padding-left: 50px;
+    display: flex;
+	align-self: left;
 	float: left;
+}
+
+@media only screen and (max-device-width : 1000px) {
+	.map{
+		max-width: 50vw;
+		height: auto;
+		padding-left: 50px;
+		display: flex;
+		overflow: hidden;
+	}
 }
 
 
 .studio  {
-	padding: 40px;
     width: 50vw;
-    height: auto;
-	align-self: center;
-	float: right;
-}
-
-@media only screen and (max-device-width : 1370px) {
-	.studio  {
-		width: 100vw;
-		height: auto;
-		margin: 0;
-	}
-
-	.map{
-		padding: 100px;
-		width: 90vw;
-		height: auto;
-		float: center;
-	}
+    height: 400px;
+    margin-left: 100px;
+	align-self: left;
 }
 
 
 
 
+.studio-map p{
+
+	
+}
 
 
 .studio-map .map iframe {
@@ -202,6 +205,8 @@ video {
     left: 0;
     width:33.3vw ;
 	height:23.3vw ;
+	
+    
 }
 
 @media only screen and (min-device-width : 650px) {
