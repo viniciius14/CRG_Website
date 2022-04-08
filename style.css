@@ -187,7 +187,7 @@ video {
 .studio  {
     width: 50vw;
     height: 400px;
-    margin-left: 100px;
+    margin-left: 0;
 	align-self: left;
 }
 
@@ -205,17 +205,16 @@ video {
 	}
 
 	.map{
+		align-self: center;
 		padding: 100px;
 		width: 90vw;
 		height: auto;
-		float: center;
 	}
 }
 
 
 
 .studio-map p{
-
 	
 }
 
@@ -225,8 +224,6 @@ video {
     left: 0;
     width:33.3vw ;
 	height:23.3vw ;
-	
-    
 }
 
 @media only screen and (min-device-width : 650px) {
