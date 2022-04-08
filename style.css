@@ -155,13 +155,49 @@ video {
 }
 
 
-.map {
-	max-width: 50vw;
+.studio-map { 
+    width: 100vw;
+    margin: 0 auto;
+	padding: 10px;
+}
+
+
+
+.map{
+	max-width: 40vw;
 	height: auto;
 	padding-left: 50px;
     display: flex;
-	overflow: hidden;
+	align-self: left;
+	float: left;
 }
+
+@media only screen and (max-device-width : 1000px) {
+	.map{
+		max-width: 50vw;
+		height: auto;
+		padding-left: 50px;
+		display: flex;
+		overflow: hidden;
+	}
+}
+
+
+.studio  {
+    width: 50vw;
+    height: 400px;
+    margin-left: 100px;
+	align-self: left;
+}
+
+
+
+
+.studio-map p{
+
+	
+}
+
 
 .studio-map .map iframe {
     top: 0;
@@ -170,7 +206,7 @@ video {
 	height:23.3vw ;
 	
     
-  }
+}
 
 @media only screen and (min-device-width : 650px) {
 	.map {
@@ -185,6 +221,11 @@ video {
 }
 
 
+
+
+
+
+
 /*	CARROUSSEL STUFF	*/
 
 .carousel {
@@ -192,39 +233,39 @@ video {
 	position: relative;
 	height: auto;
 	width: 400px;
-  }
+}
   
-  .carousel__item {
-	height: auto;
-	display: none;
-  }
+.carousel__item {
+height: auto;
+display: none;
+}
   
-  .carousel__item--selected {
-	display: block;
-  }
+.carousel__item--selected {
+display: block;
+}
   
-  .carousel__nav {
-	width: 100%;
-	padding: 20px 0;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-  }
+.carousel__nav {
+width: 100%;
+padding: 20px 0;
+position: absolute;
+bottom: 0;
+left: 0;
+text-align: center;
+}
   
-  .carousel__button {
-	width: 10px;
-	height: 10px;
-	display: inline-block;
-	background: rgba(255, 255, 255, 0.2);
-	border-radius: 50%;
-	margin: 0 5px;
-	cursor: pointer;
-  }
+.carousel__button {
+width: 10px;
+height: 10px;
+display: inline-block;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 50%;
+margin: 0 5px;
+cursor: pointer;
+}
   
-  .carousel__button--selected {
-	background: rgba(255, 255, 255, 0.5);
-  }
+.carousel__button--selected {
+background: rgba(255, 255, 255, 0.5);
+}
   
 
 /* Fading animation */
