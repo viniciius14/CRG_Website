@@ -176,7 +176,7 @@ video {
 	float: right;
 }
 
-@media only screen and (max-device-width : 1000px) {
+@media only screen and (max-device-width : 1370px) {
 	.studio  {
 		width: 100vw;
 		height: auto;
