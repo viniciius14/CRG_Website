@@ -54,7 +54,7 @@ h4{
 }
 h5 {		/* for "About the studio", "Movies" and Director */
 	padding-top: 15px;
-	color:black; /* SECALHAR MUDAR PARA UMA COR DE DIF DE BRANCO OU PRETO */
+	color:black; 
 	font-size: 30px;
 	font-weight: bold;
 	font-family:'Roboto Mono', monospace;
@@ -112,10 +112,19 @@ video {
 	justify-content: center;
 }
 
+
 .directors img{
 	width: 33vw;
 	height: auto;
 }
+
+@media only screen and (max-device-width : 780px){
+	.directors img{
+		width: 70vw;
+		height: auto;
+	}
+}
+
 
 
 
@@ -181,6 +190,17 @@ video {
 }
 
 @media only screen and (max-device-width : 1370px) {
+
+	.map{
+		max-width:max-content;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		height: auto;
+		padding: 10px;
+		float: none;
+	}
+
 	.studio  {
 		width: 100%;
 		height: auto;
@@ -201,10 +221,6 @@ video {
 
 
 
-.studio-map p{
-	
-}
-
 
 .studio-map .map iframe {
     top: 0;
@@ -213,13 +229,6 @@ video {
 	height:23.3vw ;
 }
 
-@media only screen and (min-device-width : 650px) {
-	.map {
-		align-self: center;
-	}
-}
-
-
 
 .btn-primary:focus{
 	box-shadow: 0 0 0 0;
@@ -227,21 +236,53 @@ video {
 
 
 
+.last_fact_text{
+	text-align: center;
+	margin: 50px;
+	font-size: 18px;
+	padding-top: 10px;
+	color: black;
+	margin: 20px;
+}
 
 
+.img-square-wrapper{
+	width: 100px;
+}
+
+.img-square-wrapper img{
+	width: 100%;
+	height: auto;
+}
 
 
-/*	CARROUSSEL STUFF	*/
+/*	CARROUSSEL */
+
 
 .carousel {
 	margin: 20px;
 	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40VW;
 	height: auto;
-	width: 500px;
-
 }
-  
+
+@media only screen and (max-device-width : 1200px ){
+	.carousel {
+		margin: 0px;
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60VW;
+		height: auto;
+	}
+}
+
 .carousel__item {
+	padding: 10px;
 	height: auto;
 	display: none;
 }
@@ -271,24 +312,4 @@ video {
   
 .carousel__button--selected {
 	background: rgba(255, 255, 255, 0.7);
-}
-  
-
-/* Fading animation */
-.fade {
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-
-@keyframes fade {
-	from {opacity: .4}
-	to {opacity: 1}
-}
-.img-square-wrapper{
-		width: 100px;
-}
-
-.img-square-wrapper img{
-	width: 100%;
-	height: auto;
 }
